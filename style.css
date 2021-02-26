@@ -1,0 +1,54 @@
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: white;
+}
+header h1 {
+	margin: 0;
+	padding: 10px;
+}
+
+div.container{
+
+	width: 600px;
+	margin: auto;
+}
+
+body {
+	background-color: gray;
+	margin: 0;
+}
+
+div.Instagramphoto {
+	background-color: white;
+	margin-top: 10px;
+}
+
+div.Instagramphoto img {
+	width: 100%
+}
+
+div.Instagramphoto div.post-header div:first-child {
+	display: inline-block;
+	width: 80%;
+}
+
+div.Instagramphoto div.post-header div:last-child {
+	display: inline-block;
+	width: 20%;
+	text-align: right;
+	padding: 10px;
+	color: gray;
+}
+
+div.Instagramphoto h2, div.Instagramphoto p {
+	padding: 10px;
+	margin: 0px;
+}
+
+.post-header {
+
+}
